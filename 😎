@@ -1,0 +1,11 @@
+import pyautogui
+import time
+
+pyautogui.alert ("o código vai começar")
+pyautogui.PAUSE = 2
+pyautogui.press("winleft")
+pyautogui.write("opera")
+pyautogui.press("enter")
+time.sleep(3)
+pyautogui.write("file:///C:/Users/bekip/OneDrive/%C3%81rea%20de%20Trabalho/Curr%C3%ADculo.pdf")
+pyautogui.press("enter")
